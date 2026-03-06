@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Jalore Central Co-Operative Bank Ltd.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="img/JCCBlogo.jpg" alt="Bank Logo">
+            <div class="bank-name">
+                <h1>The Jalore Central Co-Operative Bank Ltd.</h1>
+                <p>दी जालौर सेंट्रल को-ऑपरेटिव बैंक लिमिटेड |<br>RBI Lic. No. RPCD.(JPR). Co-op.17 Date Nov. 18, 2011</p>
+            </div>
+        </div>
+        <div class="header-right">
+            <div id="google_translate_element"></div>
+            <div class="contact">
+                <p><i class="fa fa-envelope"></i> dccb.jalore@rajasthan.gov.in</p>
+                <p><i class="fa fa-envelope"></i> ccb.jalore@gmail.com</p>
+                <div class="social-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-google-plus"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="menu-toggle" id="menu-toggle"><i class="fa fa-bars"></i></div>
+        <ul class="menu" id="menu">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a href="#">About us <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="About Us/about-jalore.html">About Jalore</a></li>
+                    <li><a href="About Us/md-message.html">Md's Message</a></li>
+                    <li><a href="About Us/about-ccbs.html">About CCB's</a></li>
+                    <li><a href="About Us/about-jaloreccb.html">About Jalore CCB</a></li>
+                    <li><a href="About Us/societies-pacs.html">Societies & PACS</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Products & Services <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="Product&Services/Insurance.html">Insurance</a></li>
+                    <li><a href="Product&Services/Loan&Advance.html">Loan & Advance</a></li>
+                    <li><a href="Product&Services/Retail&BankingServices.html">Retail & Banking Services</a></li>
+                </ul>
+            </li>
+            <li><a href="Branches.html" onclick="loadPage('Branches')">Branches</a></li>
+            <li class="dropdown">
+                <a href="#">Policies & Guidelines <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Services Charges</a></li>
+                    <li><a href="#">KYC & AML</a></li>
+                    <li><a href="#">Bhamashah Yojna</a></li>
+                    <li><a href="#">IT Security Policy</a></li>
+                    <li><a href="#">PM Suraksha Bima Yojna</a></li>
+                    <li><a href="#">PM Jeevan Jyoti Bima</a></li>
+                    <li><a href="#">Yojna</a></li>
+                    <li><a href="#">Rajasthan ST Loan</a></li>
+                    <li><a href="#">Scheme 2019</a></li>
+                    <li><a href="#">ST Loan Waiver Scheme</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Downloads <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Account opening form</a></li>
+                    <li><a href="#">15G-15H Form</a></li>
+                    <li><a href="#">Nomination Form</a></li>
+                    <li><a href="#">SMS Alert request form</a></li>
+                    <li><a href="#">CHEQUE BOOK REQUEST FORM</a></li>
+                    <li><a href="#">KYC Form</a></li>
+                    <li><a href="#">Kisan Credit Card Yojna</a></li>
+                    <li><a href="#">SMS Alert</a></li>
+                    <li><a href="#">ATM Card Apply</a></li>
+                    <li><a href="#">Form 60</a></li>
+                    <li><a href="#">NEFT RTGS Form</a></li>
+                    <li><a href="#">Aadhar Linkage Application Form</a></li>
+                    <li><a href="#">OD against FD</a></li>
+                    <li><a href="#">Aadhar Linkage</a></li>
+                    <li><a href="#">BC Application</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Orders & Circulars</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Notice Board -->
+    <section class="notice-board">
+        <strong>Latest Notices:</strong>
+        <marquee behavior="scroll" direction="left" scrollamount="6">
+            🔔 Open Tender - Supply of POS devices for PDCS/PACS | 🔔 Details of Unclaimed Deposits/Inoperative Acc | 🔔 RBI KYC Circular | 🔔 Non KYC compliance Accounts
+        </marquee>
+    </section>
+
+    <!-- Main Section (Slideshow + Inquiry Form) -->
+    <section class="main-section">
+        <!-- Slideshow Box -->
+        <div class="slideshow-box">
+            <div class="slides fade">
+                <img src="gallery/G1.jpeg" alt="Slide 1">
+            </div>
+            <div class="slides fade">
+                <img src="gallery/G11.jpeg" alt="Slide 2">
+            </div>
+            <div class="slides fade">
+                <img src="gallery/G12.jpeg" alt="Slide 3">
+            </div>
+            
+
+            <!-- Navigation Arrows -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Dots -->
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+
+        <!-- Inquiry Form Box -->
+        <div class="inquiry-box">
+            <h3>INQUIRY</h3>
+            <form id="inquiryForm" action="https://formspree.io/f/myzpnqza" method="POST">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="phone" placeholder="Phone Number" required pattern="[0-9]{10}" title="Enter a valid 10-digit phone number">
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">SUBMIT</button>
+                <p id="formStatus"></p>
+            </form>
+        </div>
+        <!-- Success Popup Modal -->
+        <div id="successModal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal" id="closeModal">&times;</span>
+                <h2>✅ Inquiry Submitted Successfully!</h2>
+                <p>Thank you for contacting us. We will get back to you soon.</p>
+                <button id="okBtn">OK</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-section">
+    <!-- Left Box -->
+    <div class="info-box">
+        <ul>
+            <li><a href="#">➤ Pacs and Lamps</a></li>
+            <li><a href="#">➤ Short Term Agricultural Loan</a> </li>
+            <li><a href="#">➤ Rajasthan ST Loan Scheme 2019</a> </li>
+            <li><a href="#">➤ ST Loan Waiver Scheme</a> </li>
+            <li><a href="#">➤ Loan Schemes</a> </li>
+            <li><a href="#">➤ Interest Rates</a> </li>
+            <li><a href="#">➤ Year Holiday Calendar</a> </li>
+            <li><a href="gallery.html">➤ Photo Gallery</a> </li>
+            <li><a href="#">➤ RTGS/NEFT</a> </li>
+            <li><a href="#">➤ Useful Links</a> </li>
+        </ul>
+    </div>
+
+    <!-- Right Text -->
+    <div class="info-text">
+        <h2>Welcome To The Jalore Central Co-operative Bank Ltd. Jalore (Raj.)</h2>
+        <p>
+            दी जालौर सेंट्रल को-ऑपरेटिव बैंक लिमिटेड, जालौर की स्थापना 1 फरवरी 1927 को हुई थी। 
+            पूर्व में इस बैंक का कार्यक्षेत्र सम्पूर्ण हाड़ौती क्षेत्र में फैला हुआ था। किन्तु बाद में 
+            झालावाड़ तथा बूंदी में नये केंद्रीय सहकारी बैंकों का गठन हो जाने के परिणामस्वरूप बैंक का 
+            कार्यक्षेत्र जालौर एवं बारां राजस्व जिले तक दिनांक 10.03.07 तक रहा। ...
+        </p>
+        <p>
+            बैंकिंग विनियमन अधिनियम, 1949 की धारा 56 (ओ) के साथ पढ़ी जाने वाली धारा 22 (1) 
+            के अन्तर्गत भारतीय रिजर्व बैंक द्वारा बैंक को लाइसेंस प्रदान किया गया है। बैंक का सी.आर.ए.आर. 
+            वर्तमान में 9.77 प्रतिशत है।
+        </p>
+    </div>
+    </section>
+    <section class="info-section-desktop">
+  <div class="info-box interest-box">
+    <h3>Deposit Interest Rates</h3>
+    <table>
+      <tr><td>15 दिन से 29 दिन तक</td><td>4.35%</td></tr>
+      <tr><td>30 दिन से 45 दिन तक</td><td>4.55%</td></tr>
+      <tr><td>46 दिन से 90 दिन तक</td><td>5.10%</td></tr>
+      <tr><td>91 दिन से 180 दिन तक</td><td>5.60%</td></tr>
+      <tr><td>181 दिन से एक वर्ष से कम</td><td>6.25%</td></tr>
+      <tr><td>1 वर्ष </td><td>6.80%</td></tr>
+      <tr><td>1 वर्ष से अधिक एवं 599 Days</td><td>6.85%</td></tr>
+      <tr><td>600 दिन से एवं 3 दिन तक</td><td><strong>6.90%</strong></td></tr>
+      <tr><td>3 वर्ष से अधिक एवं 5 वर्ष तक</td><td>6.85%</td></tr>
+      <tr><td>5 वर्ष से अधिक एवं 10 वर्ष तक</td><td>6.70%</td></tr>
+    </table>
+    <br>
+    <p>➤आवर्ती जमा खातों (RD) पर भी यही ब्याज दर लागू होगी ।</p>
+        <br>
+
+    <p>➤60 वर्ष या इससे अधिक आयु के वरिष्ठ नागरिकों के लिये 0.50% अतिरिक्त
+          ब्याज दर न्यूनतम 1 वर्ष की रु 50,000/- या अधिक की मियादी
+          जमाओं एवं रु 5000 या अधिक की मासिक आवर्तक जमाओं पर देय होगी।</p>
+  </div>
+
+  <div class="info-box scheme-box">
+    <h3>✅ Our Scheme</h3>
+
+    <div class="scheme-group">
+      <h4>🏦 Account Scheme</h4>
+      <ul>
+        <li>Saving Account</li>
+        <li>Current Account</li>
+        <li>Bhamashah Account</li>
+        <li>PM Suraksha Bima Yojna</li>
+      </ul>
+    </div>
+
+    <div class="scheme-group">
+      <h4>💰 Loan & Advances</h4>
+      <ul>
+        <li>CC Limits for Traders</li>
+        <li>Mortgage Loan</li>
+        <li>Agricultural Loan</li>
+        <li>Janmangal Aawas Yojna</li>
+        <li>CC Business Limit</li>
+      </ul>
+    </div>
+
+    <div class="scheme-group">
+      <h4>📄 Deposit & Other</h4>
+      <ul>
+        <li>Fixed Deposits</li>
+        <li>Recurring Deposit</li>
+        <li>RTGS/NEFT</li>
+      </ul>
+    </div>
+
+    <div class="scheme-group">
+      <h4>🌿 Other Useful Info</h4>
+      <ul>
+        <li>CCB Jalore</li>
+        <li>Governing Board</li>
+        <li>Chairman's Message</li>
+        <li>MD’s Message</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- Quick Links Sidebar -->
+    <div class="quick-links">
+        <a href="#"><i class="fa fa-file-signature"></i> Loan Apply</a>
+        <a href="#"><i class="fa fa-percent"></i> Interest Rates</a>
+        <a href="#"><i class="fa fa-map-marker-alt"></i> Branch Locator</a>
+        <a href="#"><i class="fa fa-phone"></i> Contact</a>
+    </div>
+
+<!-- Floating Chatbot Button -->
+    <div class="chatbot-button" id="chatbot-btn">
+        <i class="fa fa-comments"></i>
+    </div>
+
+<!-- Chatbot Window -->
+    <div class="chatbot-window" id="chatbot-window">
+        <div class="chat-header">
+            <span>💬 Virtual Assistant</span>
+            <button id="close-chat">&times;</button>
+        </div>
+        <div class="chat-body" id="chat-body">
+            <p><strong>Bot:</strong> Hello! How can I help you today?</p>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="chat-message" placeholder="Type your message...">
+            <button id="send-chat"><i class="fa fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+<div class="info-sections">
+  <!-- Photo Gallery -->
+  <div class="section gallery">
+    <h3>Photo Gallery</h3>
+    <div class="gallery-grid">
+      <a href="gallery.html"><img src="img/p1.jpeg" alt="Gallery 1"></a>
+      <a href="gallery.html"><img src="img/p2.jpeg" alt="Gallery 2"></a>
+      <a href="gallery.html"><img src="img/p3.jpeg" alt="Gallery 3"></a>
+      <a href="gallery.html"><img src="img/p4.jpeg" alt="Gallery 4"></a>
+    </div>
+  </div>
+
+  <!-- Debit Card -->
+  <div class="section debit-card">
+    <h3>Debit/Rupay Card</h3>
+    <img src="img/debit.jpg" alt="Debit Card">
+  </div>
+
+  <!-- Visitor Counter -->
+  <div class="section visitors">
+    <h3>Total Visitors</h3>
+    <div class="counter">00006969</div>
+    <button class="feedback-btn">Feedback</button>
+  </div>
+</div>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 The Jalore Central Co-Operative Bank Ltd. | All Rights Reserved.</p>
+    </footer>
+
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- Hide Google Translate Tooltip -->
+    <script>
+        setInterval(() => {
+            const balloon = document.querySelector('.goog-te-balloon-frame');
+            const tooltip = document.querySelector('#goog-gt-tt');
+            if (balloon) balloon.style.display = 'none';
+            if (tooltip) tooltip.style.display = 'none';
+        }, 300);
+    </script>
+</body>
+</html>
